@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 51ea6bfa3709a3a46bf4c6fcb7f17f13
+guid: 93dae11dc6853234487a9d2deefde77c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -32,7 +32,7 @@ ScriptedImporter:
     sRGBTexture: 1
     spriteMode: 2
     spriteExtrude: 1
-    spriteMeshType: 1
+    spriteMeshType: 0
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
     spritePixelsToUnits: 100
@@ -71,7 +71,7 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -83,7 +83,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   asepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638322085648723641
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,38 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Enemy1_Walking_Frame_0
+  - name: TileMaps
     originalName: 
-    pivot: {x: 0.47058824, y: -0.36842105}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 88
-      width: 17
-      height: 19
-    spriteID: 44d536db318648e4ea2fb3ea99e4a2d6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 88}
-  - name: Enemy1_Walking_Frame_1
-    originalName: 
-    pivot: {x: 0.47058824, y: -0.35}
+    pivot: {x: 0.50000006, y: -3}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 17
-      height: 20
-    spriteID: 2b1bf97590e818e449b2ea814a4041b7
+      width: 32
+      height: 32
+    spriteID: ecdafe302006cc64b8c428fa6f1234ca
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,18 +139,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Enemy1_Walking_Frame_2
+  spriteSheetImportData:
+  - name: TileMaps_0
     originalName: 
-    pivot: {x: 0.47058824, y: -0.35}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 32
-      width: 17
-      height: 20
-    spriteID: 293ba23246ba8584caa271aee629d460
+      y: 20
+      width: 16
+      height: 16
+    spriteID: f175389f023e67e43b82917c0d548e6c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -178,19 +159,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 32}
-  - name: Enemy1_Walking_Frame_3
+    uvTransform: {x: 0, y: 0}
+  - name: TileMaps_1
     originalName: 
-    pivot: {x: 0.47058824, y: -0.35}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 60
-      width: 17
-      height: 20
-    spriteID: 7da29d1908db0be418fa1733df0f86bf
+      x: 20
+      y: 20
+      width: 16
+      height: 16
+    spriteID: 2d5feb2b7727f404ba6d9853772f662d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -198,19 +179,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 60}
-  - name: Enemy1_Walking_Frame_4
+    uvTransform: {x: 0, y: 0}
+  - name: TileMaps_2
     originalName: 
-    pivot: {x: 0.47058824, y: -0.36842105}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 29
+      x: 4
       y: 4
-      width: 17
-      height: 19
-    spriteID: 6f16ae0af5eaa9b49a0a4d35641cff32
+      width: 16
+      height: 16
+    spriteID: 81debb0fdcd6bc241855cccc9a3ec0fb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -218,19 +199,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 29, y: 4}
-  - name: Enemy1_Walking_Frame_5
+    uvTransform: {x: 0, y: 0}
+  - name: TileMaps_3
     originalName: 
-    pivot: {x: 0.47058824, y: -0.3888889}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 29
-      y: 31
-      width: 17
-      height: 18
-    spriteID: 3dfc495b6b1e24641a0d04aa022f5b5a
+      x: 20
+      y: 4
+      width: 16
+      height: 16
+    spriteID: 6fd8fc98e43d8724cb86fa7d866cfc0d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -238,95 +219,74 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 29, y: 31}
-  - name: Enemy1_Walking_Frame_6
-    originalName: 
-    pivot: {x: 0.47058824, y: -0.3888889}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 29
-      y: 57
-      width: 17
-      height: 18
-    spriteID: b7c94fd335524b24b983e1306b00342e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 29, y: 57}
-  spriteSheetImportData: []
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: -1366402755
-    name: Enemy1_Walking
+    guid: 1699767003
+    name: TileMaps
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Enemy1_Walking_Frame_0
+    - name: TileMaps
       frameIndex: 0
       cellRect:
-        x: 8
-        y: 7
-        width: 17
-        height: 19
-      spriteId: 44d536db318648e4ea2fb3ea99e4a2d6
-    - name: Enemy1_Walking_Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 8
-        y: 7
-        width: 17
-        height: 20
-      spriteId: 2b1bf97590e818e449b2ea814a4041b7
-    - name: Enemy1_Walking_Frame_2
-      frameIndex: 2
-      cellRect:
-        x: 8
-        y: 7
-        width: 17
-        height: 20
-      spriteId: 293ba23246ba8584caa271aee629d460
-    - name: Enemy1_Walking_Frame_3
-      frameIndex: 3
-      cellRect:
-        x: 8
-        y: 7
-        width: 17
-        height: 20
-      spriteId: 7da29d1908db0be418fa1733df0f86bf
-    - name: Enemy1_Walking_Frame_4
-      frameIndex: 4
-      cellRect:
-        x: 8
-        y: 7
-        width: 17
-        height: 19
-      spriteId: 6f16ae0af5eaa9b49a0a4d35641cff32
-    - name: Enemy1_Walking_Frame_5
-      frameIndex: 5
-      cellRect:
-        x: 8
-        y: 7
-        width: 17
-        height: 18
-      spriteId: 3dfc495b6b1e24641a0d04aa022f5b5a
-    - name: Enemy1_Walking_Frame_6
-      frameIndex: 6
-      cellRect:
-        x: 8
-        y: 7
-        width: 17
-        height: 18
-      spriteId: b7c94fd335524b24b983e1306b00342e
+        x: 80
+        y: 96
+        width: 32
+        height: 32
+      spriteId: ecdafe302006cc64b8c428fa6f1234ca
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
+  canvasSize: {x: 192, y: 192}
