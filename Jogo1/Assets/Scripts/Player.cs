@@ -8,6 +8,12 @@ public class Player : MonoBehaviour
 	[SerializeField] private GameObject bulletPrefab;
 	[SerializeField] private Transform rotationPoint;
 	[SerializeField] private Transform firingPoint;
+	[SerializeField] private SpriteRenderer spriteplayer;
+	[SerializeField] private Animator animation;
+	public static Player instance; 
+	public float dano;
+	
+
 
 	private Rigidbody2D rigidBody;
 	private float moveX, moveY;
@@ -16,11 +22,30 @@ public class Player : MonoBehaviour
 
 	private void Start() {
 		rigidBody = GetComponent<Rigidbody2D>();
+		instance = this;
 	}
 
 	private void Update() {
 		moveX = Input.GetAxis("Horizontal");
 		moveY = Input.GetAxis("Vertical");
+		if(moveX > 0)
+		{
+			this.spriteplayer.flipX = false;
+		}
+		if(moveX < 0)
+		{
+			this.spriteplayer.flipX = true;
+		}
+		if(moveX == 0 && moveY == 0)
+		{
+			animation.SetBool("runing", false);
+		}
+		else
+		{
+			animation.SetBool("runing", true);
+		}
+
+
 		mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
 		float angle = Mathf.Atan2(mousePos.y - moveY, mousePos.x - moveX) * Mathf.Rad2Deg - 90f;

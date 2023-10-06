@@ -19,4 +19,13 @@ public class Bullet : MonoBehaviour
 	private void FixedUpdate() {
 		rigidBody.velocity = transform.right * moveSpeed;
 	}
+
+	void OnTriggerEnter2D(Collider2D collision)
+	{
+		if(collision.gameObject.CompareTag("Enemy"))
+		{
+			collision.gameObject.GetComponent<robot>().tomoudano();
+			Destroy(gameObject);
+		}
+	}
 }
