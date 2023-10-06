@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 738fda9e803f2f64e83e9d3350f0258a
+guid: 5d4f812d4b9f09b4187f7273d791571a
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: "SpriteCh\xE3o"
+  - name: Enemy1_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5294118, y: -0.5263158}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 16
-      height: 16
-    spriteID: 206ac9191e5b9b041bbfce7b7204dba3
+      width: 17
+      height: 19
+    spriteID: 4c4c7f6de26d8aa45999a3cf68cef66d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,26 +139,138 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Enemy1_Frame_1
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.5555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 58
+      width: 17
+      height: 18
+    spriteID: d88e9577ea1c488428aa765c5d207120
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 58}
+  - name: Enemy1_Frame_2
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.5555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 84
+      width: 17
+      height: 18
+    spriteID: 3934af46b68769c469f4bdedc5409ca9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 84}
+  - name: Enemy1_Frame_3
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.5555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 4
+      width: 17
+      height: 18
+    spriteID: c0e87cba271fa714a8f9a18afc327c10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 4}
+  - name: Enemy1_Frame_4
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.5263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 31
+      width: 17
+      height: 19
+    spriteID: 5c8a6ee2afb250946b77a9b4a4261038
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 31}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1186644526
-    name: "SpriteCh\xE3o"
+    guid: 477528131
+    name: Enemy1
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: "SpriteCh\xE3o"
+    - name: Enemy1_Frame_0
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 16
-        height: 16
-      spriteId: 206ac9191e5b9b041bbfce7b7204dba3
+        x: 7
+        y: 10
+        width: 17
+        height: 19
+      spriteId: 4c4c7f6de26d8aa45999a3cf68cef66d
+    - name: Enemy1_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 7
+        y: 10
+        width: 17
+        height: 18
+      spriteId: d88e9577ea1c488428aa765c5d207120
+    - name: Enemy1_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 7
+        y: 10
+        width: 17
+        height: 18
+      spriteId: 3934af46b68769c469f4bdedc5409ca9
+    - name: Enemy1_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 7
+        y: 10
+        width: 17
+        height: 18
+      spriteId: c0e87cba271fa714a8f9a18afc327c10
+    - name: Enemy1_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 7
+        y: 10
+        width: 17
+        height: 19
+      spriteId: 5c8a6ee2afb250946b77a9b4a4261038
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 16, y: 16}
+  canvasSize: {x: 32, y: 32}

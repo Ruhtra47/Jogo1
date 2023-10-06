@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 51ea6bfa3709a3a46bf4c6fcb7f17f13
+guid: 637181da7d3e2bc4dbbbaa35cf4a4846
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,58 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Inimigo_01_(andando)_Frame_0
+  - name: MainCharacter_Frame_0
     originalName: 
-    pivot: {x: 0.47058824, y: -0.36842105}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 88
-      width: 17
-      height: 19
-    spriteID: f2a45fd5ba71a6a48823f2ae1c41636b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 88}
-  - name: Inimigo_01_(andando)_Frame_1
-    originalName: 
-    pivot: {x: 0.47058824, y: -0.35}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 17
-      height: 20
-    spriteID: b8b59d8ac2308a44caede026cbd65aa7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
-  - name: Inimigo_01_(andando)_Frame_2
-    originalName: 
-    pivot: {x: 0.47058824, y: -0.35}
+    pivot: {x: 0.4375, y: -0.47368422}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 32
-      width: 17
-      height: 20
-    spriteID: dbab67cd68a21694ca4ec25d01b13ed2
+      width: 16
+      height: 19
+    spriteID: 4b771e275637bf64c8a5e6899d12b013
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,38 +139,98 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 32}
-  - name: Inimigo_01_(andando)_Frame_3
+  - name: MainCharacter_Frame_1
     originalName: 
-    pivot: {x: 0.47058824, y: -0.35}
+    pivot: {x: 0.4375, y: -0.45000002}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 60
-      width: 17
-      height: 20
-    spriteID: 60e9ae99c63aaaf48b3d4d36f0acb719
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 60}
-  - name: Inimigo_01_(andando)_Frame_4
-    originalName: 
-    pivot: {x: 0.47058824, y: -0.36842105}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 29
       y: 4
-      width: 17
+      width: 16
+      height: 20
+    spriteID: 3a320e5ceaf6f964d8b144f12e81bf16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MainCharacter_Frame_2
+    originalName: 
+    pivot: {x: 0.4375, y: -0.45000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 4
+      width: 16
+      height: 20
+    spriteID: 874c3f338989b114ba7043fa43cfd8ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 4}
+  - name: MainCharacter_Frame_3
+    originalName: 
+    pivot: {x: 0.4375, y: -0.45000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 4
+      width: 16
+      height: 20
+    spriteID: 2baa9992eb7bbad4ba23812f83e79826
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 4}
+  - name: MainCharacter_Frame_4
+    originalName: 
+    pivot: {x: 0.4375, y: -0.45000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 16
+      height: 20
+    spriteID: 5aa5be1119776654e8cf048d98a7eb4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 4}
+  - name: MainCharacter_Frame_5
+    originalName: 
+    pivot: {x: 0.4375, y: -0.47368422}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 32
+      width: 16
       height: 19
-    spriteID: 28ca1cef10c2f1e43a318e0308c8d499
+    spriteID: f4677294dae320444b2bfb5e353ca273
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -218,19 +238,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 29, y: 4}
-  - name: Inimigo_01_(andando)_Frame_5
+    uvTransform: {x: 28, y: 32}
+  - name: MainCharacter_Frame_6
     originalName: 
-    pivot: {x: 0.47058824, y: -0.3888889}
+    pivot: {x: 0.4375, y: -0.4}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 29
-      y: 31
-      width: 17
-      height: 18
-    spriteID: 8a840557bb0e44840b8a9c1ead565b52
+      x: 100
+      y: 4
+      width: 16
+      height: 20
+    spriteID: afbdb5e79055fa646ab1571c26b88d8f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -238,19 +258,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 29, y: 31}
-  - name: Inimigo_01_(andando)_Frame_6
+    uvTransform: {x: 100, y: 4}
+  - name: MainCharacter_Frame_7
     originalName: 
-    pivot: {x: 0.47058824, y: -0.3888889}
+    pivot: {x: 0.4375, y: -0.47368422}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 29
-      y: 57
-      width: 17
-      height: 18
-    spriteID: 5e954b2dd7b866b49bbc78f3d7c85bab
+      x: 52
+      y: 32
+      width: 16
+      height: 19
+    spriteID: 038253ed8016b2443b0edea0838ba4e8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -258,72 +278,108 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 29, y: 57}
+    uvTransform: {x: 52, y: 32}
+  - name: MainCharacter_Frame_8
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.47368422}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 32
+      width: 14
+      height: 19
+    spriteID: e50781e0bd5d04b43997a77b838db53d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 32}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 408065037
-    name: Inimigo_01_(andando)
+    guid: 1416833034
+    name: MainCharacter
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Inimigo_01_(andando)_Frame_0
+    - name: MainCharacter_Frame_0
       frameIndex: 0
       cellRect:
-        x: 8
-        y: 7
-        width: 17
+        x: 9
+        y: 9
+        width: 16
         height: 19
-      spriteId: f2a45fd5ba71a6a48823f2ae1c41636b
-    - name: Inimigo_01_(andando)_Frame_1
+      spriteId: 4b771e275637bf64c8a5e6899d12b013
+    - name: MainCharacter_Frame_1
       frameIndex: 1
       cellRect:
-        x: 8
-        y: 7
-        width: 17
+        x: 9
+        y: 9
+        width: 16
         height: 20
-      spriteId: b8b59d8ac2308a44caede026cbd65aa7
-    - name: Inimigo_01_(andando)_Frame_2
+      spriteId: 3a320e5ceaf6f964d8b144f12e81bf16
+    - name: MainCharacter_Frame_2
       frameIndex: 2
       cellRect:
-        x: 8
-        y: 7
-        width: 17
+        x: 9
+        y: 9
+        width: 16
         height: 20
-      spriteId: dbab67cd68a21694ca4ec25d01b13ed2
-    - name: Inimigo_01_(andando)_Frame_3
+      spriteId: 874c3f338989b114ba7043fa43cfd8ed
+    - name: MainCharacter_Frame_3
       frameIndex: 3
       cellRect:
-        x: 8
-        y: 7
-        width: 17
+        x: 9
+        y: 9
+        width: 16
         height: 20
-      spriteId: 60e9ae99c63aaaf48b3d4d36f0acb719
-    - name: Inimigo_01_(andando)_Frame_4
+      spriteId: 2baa9992eb7bbad4ba23812f83e79826
+    - name: MainCharacter_Frame_4
       frameIndex: 4
       cellRect:
-        x: 8
-        y: 7
-        width: 17
-        height: 19
-      spriteId: 28ca1cef10c2f1e43a318e0308c8d499
-    - name: Inimigo_01_(andando)_Frame_5
+        x: 9
+        y: 9
+        width: 16
+        height: 20
+      spriteId: 5aa5be1119776654e8cf048d98a7eb4a
+    - name: MainCharacter_Frame_5
       frameIndex: 5
       cellRect:
-        x: 8
-        y: 7
-        width: 17
-        height: 18
-      spriteId: 8a840557bb0e44840b8a9c1ead565b52
-    - name: Inimigo_01_(andando)_Frame_6
+        x: 9
+        y: 9
+        width: 16
+        height: 19
+      spriteId: f4677294dae320444b2bfb5e353ca273
+    - name: MainCharacter_Frame_6
       frameIndex: 6
       cellRect:
-        x: 8
-        y: 7
-        width: 17
-        height: 18
-      spriteId: 5e954b2dd7b866b49bbc78f3d7c85bab
+        x: 9
+        y: 8
+        width: 16
+        height: 20
+      spriteId: afbdb5e79055fa646ab1571c26b88d8f
+    - name: MainCharacter_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 9
+        y: 9
+        width: 16
+        height: 19
+      spriteId: 038253ed8016b2443b0edea0838ba4e8
+    - name: MainCharacter_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 10
+        y: 9
+        width: 14
+        height: 19
+      spriteId: e50781e0bd5d04b43997a77b838db53d
     linkedCells: []
     parentIndex: -1
   platformSettings: []

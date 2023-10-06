@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 637181da7d3e2bc4dbbbaa35cf4a4846
+guid: 51ea6bfa3709a3a46bf4c6fcb7f17f13
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Sprite_personagem(idle e andando)_prototipo_Frame_0
+  - name: Enemy1_Walking_Frame_0
     originalName: 
-    pivot: {x: 0.4375, y: -0.47368422}
+    pivot: {x: 0.47058824, y: -0.36842105}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 32
-      width: 16
+      y: 88
+      width: 17
       height: 19
-    spriteID: bb0ebd6192fe422459a577b6ec57c87b
+    spriteID: 44d536db318648e4ea2fb3ea99e4a2d6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -138,19 +138,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 32}
-  - name: Sprite_personagem(idle e andando)_prototipo_Frame_1
+    uvTransform: {x: 4, y: 88}
+  - name: Enemy1_Walking_Frame_1
     originalName: 
-    pivot: {x: 0.4375, y: -0.45000002}
+    pivot: {x: 0.47058824, y: -0.35}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 16
+      width: 17
       height: 20
-    spriteID: 7e996a49e0c5bd24ba9ab8666861fdd7
+    spriteID: 2b1bf97590e818e449b2ea814a4041b7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,98 +159,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Sprite_personagem(idle e andando)_prototipo_Frame_2
+  - name: Enemy1_Walking_Frame_2
     originalName: 
-    pivot: {x: 0.4375, y: -0.45000002}
+    pivot: {x: 0.47058824, y: -0.35}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 28
-      y: 4
-      width: 16
-      height: 20
-    spriteID: 9bad340461537e042b5cf66d233c9f16
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 28, y: 4}
-  - name: Sprite_personagem(idle e andando)_prototipo_Frame_3
-    originalName: 
-    pivot: {x: 0.4375, y: -0.45000002}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 52
-      y: 4
-      width: 16
-      height: 20
-    spriteID: abf051fe453f61b44be1462d48df93ba
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 52, y: 4}
-  - name: Sprite_personagem(idle e andando)_prototipo_Frame_4
-    originalName: 
-    pivot: {x: 0.4375, y: -0.45000002}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 76
-      y: 4
-      width: 16
-      height: 20
-    spriteID: 3fd002d62ecf9d443a928bf11098f188
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 76, y: 4}
-  - name: Sprite_personagem(idle e andando)_prototipo_Frame_5
-    originalName: 
-    pivot: {x: 0.4375, y: -0.47368422}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 28
+      x: 4
       y: 32
-      width: 16
-      height: 19
-    spriteID: c063a28b0a9949a41a4b87278b031a95
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 28, y: 32}
-  - name: Sprite_personagem(idle e andando)_prototipo_Frame_6
-    originalName: 
-    pivot: {x: 0.4375, y: -0.4}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 100
-      y: 4
-      width: 16
+      width: 17
       height: 20
-    spriteID: faabb7667b787504790d548e23b95d26
+    spriteID: 293ba23246ba8584caa271aee629d460
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -258,19 +178,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 100, y: 4}
-  - name: Sprite_personagem(idle e andando)_prototipo_Frame_7
+    uvTransform: {x: 4, y: 32}
+  - name: Enemy1_Walking_Frame_3
     originalName: 
-    pivot: {x: 0.4375, y: -0.47368422}
+    pivot: {x: 0.47058824, y: -0.35}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 52
-      y: 32
-      width: 16
-      height: 19
-    spriteID: edb259a82fd6c8f4ba47ed5846579e72
+      x: 4
+      y: 60
+      width: 17
+      height: 20
+    spriteID: 7da29d1908db0be418fa1733df0f86bf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -278,19 +198,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 52, y: 32}
-  - name: Sprite_personagem(idle e andando)_prototipo_Frame_8
+    uvTransform: {x: 4, y: 60}
+  - name: Enemy1_Walking_Frame_4
     originalName: 
-    pivot: {x: 0.42857146, y: -0.47368422}
+    pivot: {x: 0.47058824, y: -0.36842105}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 76
-      y: 32
-      width: 14
+      x: 29
+      y: 4
+      width: 17
       height: 19
-    spriteID: 0f424f12645309d4da8d2f00950fab74
+    spriteID: 6f16ae0af5eaa9b49a0a4d35641cff32
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -298,88 +218,112 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 76, y: 32}
+    uvTransform: {x: 29, y: 4}
+  - name: Enemy1_Walking_Frame_5
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 31
+      width: 17
+      height: 18
+    spriteID: 3dfc495b6b1e24641a0d04aa022f5b5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 31}
+  - name: Enemy1_Walking_Frame_6
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 57
+      width: 17
+      height: 18
+    spriteID: b7c94fd335524b24b983e1306b00342e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 57}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1115379425
-    name: Sprite_personagem(idle e andando)_prototipo
+    guid: -1366402755
+    name: Enemy1_Walking
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Sprite_personagem(idle e andando)_prototipo_Frame_0
+    - name: Enemy1_Walking_Frame_0
       frameIndex: 0
       cellRect:
-        x: 9
-        y: 9
-        width: 16
+        x: 8
+        y: 7
+        width: 17
         height: 19
-      spriteId: bb0ebd6192fe422459a577b6ec57c87b
-    - name: Sprite_personagem(idle e andando)_prototipo_Frame_1
+      spriteId: 44d536db318648e4ea2fb3ea99e4a2d6
+    - name: Enemy1_Walking_Frame_1
       frameIndex: 1
       cellRect:
-        x: 9
-        y: 9
-        width: 16
+        x: 8
+        y: 7
+        width: 17
         height: 20
-      spriteId: 7e996a49e0c5bd24ba9ab8666861fdd7
-    - name: Sprite_personagem(idle e andando)_prototipo_Frame_2
+      spriteId: 2b1bf97590e818e449b2ea814a4041b7
+    - name: Enemy1_Walking_Frame_2
       frameIndex: 2
       cellRect:
-        x: 9
-        y: 9
-        width: 16
+        x: 8
+        y: 7
+        width: 17
         height: 20
-      spriteId: 9bad340461537e042b5cf66d233c9f16
-    - name: Sprite_personagem(idle e andando)_prototipo_Frame_3
+      spriteId: 293ba23246ba8584caa271aee629d460
+    - name: Enemy1_Walking_Frame_3
       frameIndex: 3
       cellRect:
-        x: 9
-        y: 9
-        width: 16
+        x: 8
+        y: 7
+        width: 17
         height: 20
-      spriteId: abf051fe453f61b44be1462d48df93ba
-    - name: Sprite_personagem(idle e andando)_prototipo_Frame_4
+      spriteId: 7da29d1908db0be418fa1733df0f86bf
+    - name: Enemy1_Walking_Frame_4
       frameIndex: 4
       cellRect:
-        x: 9
-        y: 9
-        width: 16
-        height: 20
-      spriteId: 3fd002d62ecf9d443a928bf11098f188
-    - name: Sprite_personagem(idle e andando)_prototipo_Frame_5
+        x: 8
+        y: 7
+        width: 17
+        height: 19
+      spriteId: 6f16ae0af5eaa9b49a0a4d35641cff32
+    - name: Enemy1_Walking_Frame_5
       frameIndex: 5
       cellRect:
-        x: 9
-        y: 9
-        width: 16
-        height: 19
-      spriteId: c063a28b0a9949a41a4b87278b031a95
-    - name: Sprite_personagem(idle e andando)_prototipo_Frame_6
+        x: 8
+        y: 7
+        width: 17
+        height: 18
+      spriteId: 3dfc495b6b1e24641a0d04aa022f5b5a
+    - name: Enemy1_Walking_Frame_6
       frameIndex: 6
       cellRect:
-        x: 9
-        y: 8
-        width: 16
-        height: 20
-      spriteId: faabb7667b787504790d548e23b95d26
-    - name: Sprite_personagem(idle e andando)_prototipo_Frame_7
-      frameIndex: 7
-      cellRect:
-        x: 9
-        y: 9
-        width: 16
-        height: 19
-      spriteId: edb259a82fd6c8f4ba47ed5846579e72
-    - name: Sprite_personagem(idle e andando)_prototipo_Frame_8
-      frameIndex: 8
-      cellRect:
-        x: 10
-        y: 9
-        width: 14
-        height: 19
-      spriteId: 0f424f12645309d4da8d2f00950fab74
+        x: 8
+        y: 7
+        width: 17
+        height: 18
+      spriteId: b7c94fd335524b24b983e1306b00342e
     linkedCells: []
     parentIndex: -1
   platformSettings: []
