@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
 	[SerializeField] private SpriteRenderer gunSpriteRenderer;
 	[SerializeField] private SpriteRenderer spritePlayer;
 	[SerializeField] private Animator animator;
-	[SerializeField] private static Player instance;
+	public static Player instance;
 
 	private bool damageOk;
 	private float timeUntilDamageOk;
@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
 		currentHealth = 10;
 		damageOk = true;
 		timeUntilDamageOk = 0;
+		instance = this;
 	}
 
 	private void Update() {
@@ -96,5 +97,11 @@ public class Player : MonoBehaviour
 
 	private void FixedUpdate() {
 		rigidBody.velocity = new Vector2(moveX, moveY).normalized * moveSpeed;
+	}
+
+	public void heal() {
+		if(currentHealth < maxHealth) {
+			currentHealth = maxHealth;
+		}
 	}
 }
