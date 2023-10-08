@@ -11,18 +11,18 @@ public class Robot : MonoBehaviour
 	[SerializeField] private SpriteRenderer spriteRenderer;
 	[SerializeField] private Animator animator;
 
-	private Player player;
+	private CharacterController2D characterController;
 	private EnemySpawner enemySpawner;
 
 	private Vector2 moveDirection;
 
 	private void Awake() {
-		player = GameObject.Find("Player").GetComponent<Player>();
+		characterController = GameObject.Find("Player").GetComponent<CharacterController2D>();
 		enemySpawner = GameObject.Find("EnemySpawner").GetComponent<EnemySpawner>();
 	}
 
 	private void Update() {
-		moveDirection = player.transform.position - transform.position;
+		moveDirection = characterController.transform.position - transform.position;
 		moveDirection = moveDirection.normalized;
 
 		rigidBody.velocity = moveSpeed * moveDirection;
@@ -45,7 +45,7 @@ public class Robot : MonoBehaviour
 	void OnTriggerEnter2D(Collider2D collision) {
 		if (collision.gameObject.CompareTag("Projectile")) {
 			Destroy(collision.gameObject);
-			enemyLife -= player.playerDamage;
+			enemyLife--;
 		}
 	}
 }

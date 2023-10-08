@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: be8b45522f4b3df42996e7d8be5bee61
+guid: b843cef3648841b47b627ceaa6cac6e3
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -75,7 +75,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 9
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 1
@@ -87,7 +87,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 9
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 1
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638322055509921502
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,78 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Sprite_Arma
+  - name: Pistola_Steampunk_Frame_0
     originalName: 
-    pivot: {x: 0.18067983, y: 0.32184893}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 4
+      width: 16
+      height: 13
+    spriteID: 3cd8b010671b4714c8d881e73e221cf9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 4}
+  - name: Pistola_Steampunk_Frame_1
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 25
+      width: 16
+      height: 13
+    spriteID: 2a3b59f8a59a3d64ba2b451a749236e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 25}
+  - name: Pistola_Steampunk_Frame_2
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 25
+      width: 17
+      height: 13
+    spriteID: 03cdd6cd82b23604da05cc54ce64a4fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 25}
+  - name: Pistola_Steampunk_Frame_3
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 13
-      height: 9
-    spriteID: 0be6daec7500e974ab54da79532e3955
+      width: 18
+      height: 13
+    spriteID: 7b1b260bc59701241bc95af041d2639a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,74 +199,78 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Pistola_Steampunk_Frame_4
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 46
+      width: 17
+      height: 13
+    spriteID: 4078450129ba98e4fb0a4268fd7553b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 46}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 599192033
-    name: Sprite_Arma
+    guid: 81813545
+    name: Pistola_Steampunk
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Sprite_Arma
+    - name: Pistola_Steampunk_Frame_0
       frameIndex: 0
       cellRect:
-        x: 9
-        y: 13
-        width: 13
-        height: 9
-      spriteId: 0be6daec7500e974ab54da79532e3955
+        x: 96
+        y: 82
+        width: 16
+        height: 13
+      spriteId: 3cd8b010671b4714c8d881e73e221cf9
+    - name: Pistola_Steampunk_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 96
+        y: 82
+        width: 16
+        height: 13
+      spriteId: 2a3b59f8a59a3d64ba2b451a749236e8
+    - name: Pistola_Steampunk_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 95
+        y: 82
+        width: 17
+        height: 13
+      spriteId: 03cdd6cd82b23604da05cc54ce64a4fd
+    - name: Pistola_Steampunk_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 94
+        y: 82
+        width: 18
+        height: 13
+      spriteId: 7b1b260bc59701241bc95af041d2639a
+    - name: Pistola_Steampunk_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 95
+        y: 82
+        width: 17
+        height: 13
+      spriteId: 4078450129ba98e4fb0a4268fd7553b6
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
+  canvasSize: {x: 192, y: 192}

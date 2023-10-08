@@ -6,28 +6,17 @@ public class Stimpack : MonoBehaviour
 {
 
 	[SerializeField] private AudioSource sound;
+    private HealthController healthController;
 
-    void Start()
-    {
-        
-    }
+	private void Awake() {
+		healthController = GameObject.Find("Player").GetComponent<HealthController>();
+	}
 
-    // Update is called once per frame
-    void Update()
+	void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.CompareTag("Player"))
-        {
-            Player.instance.heal();
+        if (collision.CompareTag("Player")) {
+            healthController.AddHealth(1f);
             sound.Play();
         }
-
-
-
-
     }
 }

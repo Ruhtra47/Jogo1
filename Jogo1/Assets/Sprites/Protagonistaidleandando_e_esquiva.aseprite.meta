@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 35c8d824f6089ec49ad7260df26c162c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Protagonistaidleandando_e_esquiva_Frame_4
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 4
+      width: 21
+      height: 21
+    spriteID: 6db18c4ff7558634d8f40ef7438c5ce3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 4}
+  - name: Protagonistaidleandando_e_esquiva_Frame_5
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 33
+      width: 21
+      height: 21
+    spriteID: 8b246f83635fe8e4e914715453477c04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 33}
+  - name: Protagonistaidleandando_e_esquiva_Frame_6
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 121
+      width: 21
+      height: 22
+    spriteID: 0e46657703019d041969cdb7bd836ca3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 121}
+  - name: Protagonistaidleandando_e_esquiva_Frame_7
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 62
+      width: 21
+      height: 21
+    spriteID: f720934464449364eb34e30cb01c7a14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 62}
+  - name: Protagonistaidleandando_e_esquiva_Frame_8
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 151
+      width: 22
+      height: 21
+    spriteID: 7b18c0d4113995b48b549a1b419b6ee2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 151}
+  - name: Protagonistaidleandando_e_esquiva_Frame_9
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 91
+      width: 23
+      height: 22
+    spriteID: 24d69103f2ebcbb469a63f3d3914260e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 91}
+  - name: Protagonistaidleandando_e_esquiva_Frame_0
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 91
+      width: 21
+      height: 21
+    spriteID: 8be226907f6db394da34e30653a34111
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 91}
+  - name: Protagonistaidleandando_e_esquiva_Frame_1
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 178
+      width: 21
+      height: 20
+    spriteID: ec65007b19ced1d45b62132d520e4e43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 178}
+  - name: Protagonistaidleandando_e_esquiva_Frame_2
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 209
+      width: 23
+      height: 20
+    spriteID: 93774f9164bfaa2478dd6503d258ce73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 209}
+  - name: Protagonistaidleandando_e_esquiva_Frame_3
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 180
+      width: 22
+      height: 21
+    spriteID: 788384d3529052e44a5186cec5f1528a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 180}
+  - name: Protagonistaidleandando_e_esquiva_Frame_10
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 120
+      width: 21
+      height: 21
+    spriteID: 1c0e71c9cdb04da4591afff9c2bd6478
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 120}
+  - name: Protagonistaidleandando_e_esquiva_Frame_11
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 33
+      width: 25
+      height: 21
+    spriteID: dfac1e835fccaa647bdb179d9fd89bb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 33}
+  - name: Protagonistaidleandando_e_esquiva_Frame_12
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 62
+      width: 25
+      height: 21
+    spriteID: 6e0a66c5257566f4cb75c7f0b622727a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 62}
+  - name: Protagonistaidleandando_e_esquiva_Frame_13
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 26
+      height: 21
+    spriteID: dae16ac0e73f9c94fab83d918c062e63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Protagonistaidleandando_e_esquiva_Frame_14
+    originalName: 
+    pivot: {x: 0.64, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 149
+      width: 21
+      height: 21
+    spriteID: e32e12e178128d04dac0116457c26978
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 149}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 199067935
+    name: Protagonistaidleandando_e_esquiva
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Protagonistaidleandando_e_esquiva_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 74
+        y: 96
+        width: 21
+        height: 21
+      spriteId: 6db18c4ff7558634d8f40ef7438c5ce3
+    - name: Protagonistaidleandando_e_esquiva_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 74
+        y: 96
+        width: 21
+        height: 21
+      spriteId: 8b246f83635fe8e4e914715453477c04
+    - name: Protagonistaidleandando_e_esquiva_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 74
+        y: 96
+        width: 21
+        height: 22
+      spriteId: 0e46657703019d041969cdb7bd836ca3
+    - name: Protagonistaidleandando_e_esquiva_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 74
+        y: 96
+        width: 21
+        height: 21
+      spriteId: f720934464449364eb34e30cb01c7a14
+    - name: Protagonistaidleandando_e_esquiva_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 73
+        y: 96
+        width: 22
+        height: 21
+      spriteId: 7b18c0d4113995b48b549a1b419b6ee2
+    - name: Protagonistaidleandando_e_esquiva_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 72
+        y: 96
+        width: 23
+        height: 22
+      spriteId: 24d69103f2ebcbb469a63f3d3914260e
+    - name: Protagonistaidleandando_e_esquiva_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 21
+        height: 21
+      spriteId: 8be226907f6db394da34e30653a34111
+    - name: Protagonistaidleandando_e_esquiva_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 74
+        y: 96
+        width: 21
+        height: 20
+      spriteId: ec65007b19ced1d45b62132d520e4e43
+    - name: Protagonistaidleandando_e_esquiva_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 72
+        y: 96
+        width: 23
+        height: 20
+      spriteId: 93774f9164bfaa2478dd6503d258ce73
+    - name: Protagonistaidleandando_e_esquiva_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 73
+        y: 96
+        width: 22
+        height: 21
+      spriteId: 788384d3529052e44a5186cec5f1528a
+    - name: Protagonistaidleandando_e_esquiva_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 74
+        y: 96
+        width: 21
+        height: 21
+      spriteId: 1c0e71c9cdb04da4591afff9c2bd6478
+    - name: Protagonistaidleandando_e_esquiva_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 71
+        y: 96
+        width: 25
+        height: 21
+      spriteId: dfac1e835fccaa647bdb179d9fd89bb3
+    - name: Protagonistaidleandando_e_esquiva_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 72
+        y: 96
+        width: 25
+        height: 21
+      spriteId: 6e0a66c5257566f4cb75c7f0b622727a
+    - name: Protagonistaidleandando_e_esquiva_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 71
+        y: 96
+        width: 26
+        height: 21
+      spriteId: dae16ac0e73f9c94fab83d918c062e63
+    - name: Protagonistaidleandando_e_esquiva_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 75
+        y: 96
+        width: 21
+        height: 21
+      spriteId: e32e12e178128d04dac0116457c26978
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 192}

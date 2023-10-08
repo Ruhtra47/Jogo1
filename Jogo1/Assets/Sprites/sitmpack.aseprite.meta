@@ -121,7 +121,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: sitmpack
     originalName: 
-    pivot: {x: 0.71428573, y: -0.2}
+    pivot: {x: 0.5047245, y: 0.50552285}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
