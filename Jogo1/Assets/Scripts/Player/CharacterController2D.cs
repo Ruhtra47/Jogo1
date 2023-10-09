@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -69,5 +70,9 @@ public class CharacterController2D : MonoBehaviour
 		if (collision.CompareTag("Enemy")) {
 			healthController.TakeDamage(1f);
 		}
+	}
+
+	public Vector3 GetPosition() {
+		return transform.position;
 	}
 }
