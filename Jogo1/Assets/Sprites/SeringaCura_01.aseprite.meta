@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 349b1a2d277212c4086b9d8e2d744443
+guid: fa97378be6950284eab71f32f961beff
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: sitmpack
+  - name: SeringaCura_01
     originalName: 
-    pivot: {x: 0.5047245, y: 0.50552285}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 7
-      height: 20
-    spriteID: ba9a592a94bc11147b2cd598b9d68206
+      width: 15
+      height: 7
+    spriteID: bf90a93c1e165e3499383f712fbe19ce
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +142,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -2101764120
-    name: sitmpack
+    guid: 336233716
+    name: SeringaCura_01
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: sitmpack
+    - name: SeringaCura_01
       frameIndex: 0
       cellRect:
-        x: 11
-        y: 4
-        width: 7
-        height: 20
-      spriteId: ba9a592a94bc11147b2cd598b9d68206
+        x: 96
+        y: 84
+        width: 15
+        height: 7
+      spriteId: bf90a93c1e165e3499383f712fbe19ce
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
+  canvasSize: {x: 192, y: 192}
